@@ -21,10 +21,10 @@ public class UsageCustomStarterApp implements CommandLineRunner {
 	/**
 	 *	Comment the bean below to see default on missing bean condition works
 	 */
-	@Bean
-	public SlavaGreeting slavaGreeting() {
-		return new UsageGreetingImpl();
-	}
+//	@Bean
+//	public SlavaGreeting slavaGreeting() {
+//		return new UsageGreetingImpl();
+//	}
 	@Override
 	public void run(String... args) throws Exception {
 		slavaGreeting.sayHello();
