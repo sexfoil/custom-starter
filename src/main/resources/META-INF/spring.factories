@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.epam.jgmp.customstarter.config.SlavaGreetingAutoConfiguration
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.epam.jgmp.customstarter.CustomStarterApplication
